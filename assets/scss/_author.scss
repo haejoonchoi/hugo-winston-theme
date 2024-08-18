@@ -20,6 +20,11 @@
     display: inline-block;
     vertical-align: middle;
   }
+  .author-title {
+    @include breakpoint('to-small') {
+      margin-top: 10px;
+    }
+  }
 }
 .author-large {
   font-size: 20px;

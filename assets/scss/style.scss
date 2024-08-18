@@ -49,7 +49,10 @@ body {
   }
   &.frame {
     min-height: 100vh;
-    border: 18px solid var(--highlight-color);
+    border: 12px solid var(--highlight-color);
+    @include breakpoint('small') {
+      border: 18px solid var(--highlight-color);
+    }
   }
 }
 
