@@ -11,11 +11,15 @@
 }
 
 $breakpoints: (
-  'small': 767px,
-  'medium': 992px,
-  'large': 1200px,
+  'to-small'      : ( max-width:  766px ),
+  'small'         : ( min-width:  767px ),
+  'to-medium'     : ( max-width:  991px ),
+  'medium'        : ( min-width:  992px ),
+  'to-large'      : ( min-width: 1199px ),
+  'large'         : ( min-width: 1200px ),
+  'to-x-large'    : ( min-width: 1599px ),
+  'x-large'       : ( min-width: 1600px )
 );
-
 @import 'normalize';
 @import 'breakpoints';
 @import 'header';
