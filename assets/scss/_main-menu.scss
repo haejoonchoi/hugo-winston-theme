@@ -17,6 +17,9 @@
         &:hover {
           text-decoration: underline;
         }
+        span {
+          white-space: nowrap; // Prevents the text from breaking into multiple lines
+        }
       }
       &.active {
         > a {
